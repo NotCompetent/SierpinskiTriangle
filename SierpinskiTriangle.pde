@@ -6,7 +6,6 @@ public void draw()
 {
 	background(0,0,0);
 	sierpinski(50,550,500);
-	//unsierpinski(2,550,500);
 }
 public void mouseDragged()//optional
 {
@@ -17,7 +16,6 @@ public void sierpinski(int x, int y, int len)
 	if(len <=10){
 		fill(255,0,255);
  		stroke(255,0,255);
-		
  		beginShape();
  		vertex(x,y);
  		vertex(x+len,y);
